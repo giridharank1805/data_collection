@@ -1,0 +1,9 @@
+name: kafka-env
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python-confluent-kafka
+  - python=3.10
+  - psycopg2
+  - requests
